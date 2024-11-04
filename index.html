@@ -27,16 +27,16 @@
             <div class="container container-flex">
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#sobre-a-loja">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Em destaque</a>
+                        <a href="#em-destque">Em destaque</a>
                     </li>
                     <li>
-                        <a href="#">Promoções</a>
+                        <a href="#promocoes">Promoções</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -63,9 +63,9 @@
         </div>
     </section>
     
-    <section>
+    <section id="em-destque" >
         <div class="container">
-            <h2>Em destaque</h2>
+            <h2>Em destque</h2>
             <ul class="container-flex lista-veiculos" >
                 <li>
                     <img src="./images/carro-bmw.png" alt="">
@@ -74,9 +74,9 @@
                         Câmbio automático, 4 portas, vidros e travas elétricas
                     </p>
                     <div class="price">
-                        <strong>R$75.000,00</strong>
-                    <button type="button">Tenho interesse</button>
+                        <strong>R$ 75.000,00</strong>
                     </div>
+                    <button type="button">Tenho interesse</button>
                 </li>
                 <li class="item-central" > 
                     <img src="./images/carro-bmw.png" alt="">
@@ -85,9 +85,9 @@
                         Câmbio automático, 4 portas, vidros e travas elétricas
                     </p>
                     <div class="price">
-                        <strong>R$75.000,00</strong>
-                    <button type="button">Tenho interesse</button>
+                        <strong>R$ 75.000,00</strong>
                     </div>
+                    <button type="button">Tenho interesse</button>
                 </li>
                 <li>
                     <img src="./images/carro-bmw.png" alt="">
@@ -96,9 +96,9 @@
                         Câmbio automático, 4 portas, vidros e travas elétricas
                     </p>
                     <div class="price">
-                        <strong>R$75.000,00</strong>
-                    <button type="button">Tenho interesse</button>
+                        <strong>R$ 75.000,00</strong>
                     </div>
+                    <button type="button">Tenho interesse</button>
                 </li>
                 <li>
                     <img src="./images/carro-bmw.png" alt="">
@@ -107,9 +107,9 @@
                         Câmbio automático, 4 portas, vidros e travas elétricas
                     </p>
                     <div class="price">
-                        <strong>R$75.000,00</strong>
-                    <button type="button">Tenho interesse</button>
+                        <strong>R$ 75.000,00</strong>
                     </div>
+                    <button type="button">Tenho interesse</button>
                 </li>
                 <li class="item-central" >
                     <img src="./images/carro-bmw.png" alt="">
@@ -118,15 +118,15 @@
                         Câmbio automático, 4 portas, vidros e travas elétricas
                     </p>
                     <div class="price">
-                        <strong>R$75.000,00</strong>
-                    <button type="button">Tenho interesse</button>
+                        <strong>R$ 75.000,00</strong>
                     </div>
+                    <button type="button">Tenho interesse</button>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section>
+    <section id="promocoes" >
         <div class="container">
             <h2>Promoções</h2>
             <ul class="container-flex lista-veiculos" >
@@ -194,7 +194,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contato" >
         <div class="container">
             <h2>Entre em contato</h2>
             <form>
@@ -252,17 +252,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('#carousel-imagens').slick({
-            autoplay:true
-        })
-
-        $('.menu-hamburguer').click(function() {
-            $('nav').slideToggle()
-        })
-    })
-</script>
+<script src="./script.js" ></script>
 </body>
 
 </html>
