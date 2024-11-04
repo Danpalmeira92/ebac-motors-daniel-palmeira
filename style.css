@@ -37,6 +37,7 @@ footer > .container {
 }
 
 nav {
+    display: none;
     background-color: #575fcf;
     padding: 16px 0;
 }
